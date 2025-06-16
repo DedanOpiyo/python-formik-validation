@@ -1,4 +1,4 @@
-from distutils.log import debug
+# from distutils.log import debug # has been removed/deprecated in Python 3.12. # Flask’s built-in debug=True flag handles what we need during development.
 from flask import Flask, request, jsonify, make_response
 from flask_migrate import Migrate
 from models  import Customer, db
